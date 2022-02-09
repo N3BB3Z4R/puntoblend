@@ -1,0 +1,16 @@
+.YoutubeLister-container {
+  /* display: flex;
+  flex-direction: column;
+  flex-basis: content; */
+  width: 60%;
+  margin: 0 auto;
+}
+
+.YoutubeLister-videos {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0;
+}

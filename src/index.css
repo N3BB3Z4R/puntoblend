@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* background-image: url('../src/assets/background.jpg');
+  background-size:140%;
+  backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
+  background-position: -0% 40%;
+  background-attachment: fixed; */
+  background-color: hsl(18, 87%, 6%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* GO TO UP BUTTON */
+body {
+  display: grid;
+  grid-template-columns: auto 0px; 
+}
+
+.top {
+  --offset: 50px; 
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-right:40px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 20px;
+  font-family: sans-serif;
+  color: #fff;
+  background: hsl(39, 100%, 50%);
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+/* p {
+  font-size: 25px;
+} */
+
+/* remove the below if you don't want smooth scrolling */
+html,
+body {
+	scroll-behavior: smooth;
 }
